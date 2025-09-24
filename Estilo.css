@@ -13,14 +13,19 @@
     font-style: normal;
 }
 
-header{
+header {
     font-size: 14px;
     letter-spacing: 0.4px;
 }
 
-body{
+body {
     font-size: 14px;
     letter-spacing: 0.4px;
+    background-color: #f7f7f7;
+}
+
+footer {
+    background-color: white;
 }
 
 /*------------Primera Cabecera de la pagina----------------*/
@@ -65,14 +70,13 @@ body{
     margin-right: 35px;
 }
 
+/*la razon por la que son imagenes los iconos es por que en mi pc no me salen los iconos qnq*/
 .Menu-top-item-Imagen img {
     background-color: #f2f7f4;
     padding: 5px;
     margin: 0px 5px;
     border-radius: 5px;
     height: 12px;
-    object-fit: cover;
-    max-width: 50px;
 }
 
 /*------------segunda Cabecera (movible) de la pagina----------------*/
@@ -117,22 +121,111 @@ body{
 /*-----------BODY------------*/
 
 .Primer-Carucel img {
+    background-color: white;
     width: auto;
     padding-bottom: 20px;
     height: 68vh;
 }
 
 .Estadisticas {
-    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
+.Flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.Flexbox-Imagen-Principal img {
+    height: 70px;
+}
+
+.Flexbox-Imagen img {
+    display: flex;
+    height: 50px;
+}
+/*---------FALTA AJUSTAR*/
+.Historial-Noticias {
+    display: flex;
+}
+
+.Nuestro-Canal {
+    display: flex;
+}
+/*---------FALTA AJUSTAR*/
+.Segundo-Carucel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 200px;
+}
+
+.Segundo-Carucel-Imagen img {
+    height: 85px;
+    width: 100%;
+}
+
+.Redes-Footer {
+    display: flex;
+    padding-left: 20px;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.Redes-Footer-Imagen img {
+    padding-top: 5px;
+    border-radius: 5px;
+    height: 20px;
+    margin: 0 3px;
+}
+
+#facebook {
+    background-color: #3b5998;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+#twitter {
+    background-color: #3b5998;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+#youtobe {
+    background-color: #3b5998;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+#instagram {
+    background-color: #3b5998;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+#whatsapp {
+    background-color: #3b5998;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+#mail {
+    background-color: #3b5998;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
 /*------------footer------------*/
 
-.Informacion-Final{
-    border-top: 0.5px solid black ;
+.Informacion-del-footer img {
+    margin-top: 120px;
+    border-top: 3px solid #d1d1d1;
+}
+
+.Informacion-Final {
+    border-top: 0.5px solid black;
     padding: 10px 0px;
     text-align: center;
     font-size: 13px;
