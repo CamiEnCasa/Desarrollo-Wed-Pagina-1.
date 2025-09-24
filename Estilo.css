@@ -1,71 +1,139 @@
-
-/*------------------------------------------------------------------------------------*/
-*{
+/*------------------------GENERAL---------------------------------------------*/
+* {
     margin: 0;
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.TipoLetra {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+
+body{
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+
+/*------------Primera Cabecera de la pagina----------------*/
+
 .Cabecera-menu {
-    border-top: 3px solid #348829;
+    border-top: 3px solid #2A871D;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
-.Cabecera-top{
-    padding-left: 40px;
-    padding-right: 40px;
+.Cabecera-top {
+    padding-left: 26px;
+    padding-right: 100px;
     list-style-type: none;
-    color: #348829;
+    color: #2A871D;
 }
 
-.Menu-top{
+.Menu-top {
     display: flex;
     list-style-type: none;
 }
 
-.Menu-top-redes{    
+.Menu-top-item {
+    padding: 14px;
+    border-right: 0.5px solid #efefef;
+    border-left: 0.5px solid #efefef;
+}
+
+.Menu-top-item-inicio {
+    padding: 14px;
+    border-right: 0.5px solid #efefef;
+}
+
+.Menu-top-item-final {
+    padding: 14px;
+    border-left: 0.5px solid #efefef;
+}
+
+.Menu-top-redes {
     display: flex;
+    margin-right: 35px;
 }
 
-.Menu-top-item{
-    padding: 10px;
-    border-right: 0.5px solid #c1c1c1;
-    border-left: 0.5px solid #c1c1c1;
+.Menu-top-item-Imagen img {
+    background-color: #f2f7f4;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    height: 12px;
+    object-fit: cover;
+    max-width: 50px;
 }
 
-.Menu-top-item-inicio{  
-    padding: 10px;
-    border-right: 0.5px solid #c1c1c1;
-}
+/*------------segunda Cabecera (movible) de la pagina----------------*/
 
-.Menu-top-item-final{
-    padding: 10px;
-    border-left: 0.5px solid #c1c1c1;
-}
-
-.Cabecera-bottom{
-    border-top: 0.5px solid #c1c1c1;
-    padding: 10px;
+.Cabecera-bottom {
+    border-top: 0.5px solid #efefef;
+    padding: 11px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+    box-shadow: 100 100 100 black;
 }
 
-.Cabecera-de-busqueda{
+.Cabecera-Imagen img {
+    padding-left: 12px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.Cabecera-de-busqueda {
     display: flex;
     list-style-type: none;
     font-weight: bold;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 50px;
 }
 
-img{
-    padding-left: 40px;
-    padding-right: 40px;
-    height: 50%;
+.Cabecera-de-busqueda-item {
+    padding: 10px 20px;
 }
 
-.Cabecera-de-busqueda-item{
-    padding: 0px 10px;
+.Cabecera-de-busqueda-item-imagen img {
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 15px;
+    object-fit: cover;
+    max-width: 50px;
+}
+
+/*-----------BODY------------*/
+
+.Primer-Carucel img {
+    width: auto;
+    padding-bottom: 20px;
+    height: 68vh;
+}
+
+.Estadisticas {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/*------------footer------------*/
+
+.Informacion-Final{
+    border-top: 0.5px solid black ;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 13px;
 }
