@@ -142,6 +142,7 @@ footer {
     height: 110px;
 }
 
+/*---------FALTA AJUSTAR*/
 .Flexbox {
     padding-top: 60px;
     display: flex;
@@ -175,13 +176,14 @@ footer {
     width: 55.5vh;
     height: 100%;
 }
-
 /*---------FALTA AJUSTAR*/
+
 .Historial-Noticias {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 50px 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 .Historial-Noticias-Imagen img{
@@ -192,11 +194,44 @@ footer {
     border-bottom: 1px solid #d1d1d1;
 }
 
+.Primer-Estereo{
+    padding-bottom: 40px;
+}
+
 .Primer-Estereo img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.Canal{
+    padding-left: 20px; 
+    font-size: 40px; 
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.Nuestro-Canal{
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    padding: 0 30px;
+}
+
+.Nuestro-Canal-Imagen img{
+    height: 23vh;
+    width: 42vh;
+}
+
+.Segundo-Estereo {
+    background-color: white;
+    padding-top: 30px;
+}
+
+.Segundo-Estereo img{
     width: 100%;
 }
 
-/*---------FALTA AJUSTAR*/
 .Segundo-Carucel {
     display: flex;
     justify-content: center;
@@ -230,40 +265,53 @@ footer {
 }
 
 #twitter {
-    background-color: #3b5998;
+    background-color: #55acee;
     padding: 5px 7px;
     border-radius: 3px;
 }
 
 #youtobe {
-    background-color: #3b5998;
+    background-color: #cd201f;
     padding: 5px 7px;
     border-radius: 3px;
 }
 
 #instagram {
-    background-color: #3b5998;
+    background-color: #3f729b;
     padding: 5px 7px;
     border-radius: 3px;
 }
 
 #whatsapp {
-    background-color: #3b5998;
+    background-color: #77e878;
     padding: 5px 7px;
     border-radius: 3px;
 }
 
 #mail {
-    background-color: #3b5998;
+    background-color: black;
     padding: 5px 7px;
     border-radius: 3px;
 }
 
 /*------------footer------------*/
 
+.Informacion-del-footer-contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.Informacion-del-footer-item{
+    align-items: center;
+}
+
 .Informacion-del-footer img {
     margin-top: 120px;
-    border-top: 3px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+    width: 100%;
+    height: 32vh;
+    object-fit: cover;
 }
 
 .Informacion-Final {
